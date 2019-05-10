@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bgimage{
+	background-image: url('image/hostel1.jpg');
+	background-size: 100% 100%;	
+	width: 100%;
+	height: 82vh;		
+}
+.headerset{
+	padding-top: 180px;
+	box-sizing: border-box;
+}
+.headerset h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+
+.head h4{
+font-size: 10px;
+}
+
+/*...................aboutus...................*/
+
+.aboutus{
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+.rowsetting{
+  margin: 70px 0px;	
+}
+.rowsetting h2{
+	font-size: 30px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.aboutus h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 5px;
+
+}
+.imgsetting{
+border-radius: 50%;
+height: 100px;
+width: 100px;
+}
+
+.fa-cutlery{
+margin-top: 20px;
+}
+
+.fa-star{
+margin-top: 20px;
+}
+
+.fa-university{
+	margin-top: 20px;
+}
+
+/*.................our team...............*/
+.ourteam{
+
+	
+	height: 700px;
+	width: 50px;
+
+}
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 5px;
+
+}
+.contact h1{
+	font-size: 50px;
+	font-weight: bold;
+	
+
+}
+.teamsetting{
+  margin: 70px 0px;	
+}
+
+/*................contact.............*/
+
+
+	
+
+
+.footer{
+	height: 50px;
+}
+.footer h6{
+	line-height: 200px;
+	}
+
+
+
+
+	/*................responsive.................*/
+
+	@media(min-width: 992px){
+
+	}
+	@media(min-width: 768px) and(max-width: 991px){
+
+	}
+	@media(min-width: 575px) and(max-width: 767px){
+
+	}
+	@media(min-width: 480px) and(max-width: 574px){
+
+	}
+	@media(max-width: 479px){
+		.headerset h1{
+	font-size: 25px;
+	font-weight: bold;
+    }
+     .headerset h4{
+      font-size: 13px;
+      }
+      .aboutus{
+	padding: 100px 0px 60px;
+	height: 1500px;
+}
+.ourteam{
+
+	
+	height: 1500px;
+	}
+
+	}
+
+
+	/*....................vertical navbar............................*/
+
+
+
+
+	.navbar-fixed-left{
+		width: 140px;
+		position: fixed;
+		border-radius: 0;
+		height: 100px;
+	}
+	.navbar-fixed-left .navbar-nav > li{
+		float: none;
+		width: 139px;
+	}
+
+	.navbar-fixed-left + .container{
+		padding-left: 160px;
+	}
+
+	
